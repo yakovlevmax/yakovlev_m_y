@@ -1,2 +1,2 @@
-# NUST MISiS C++
+ NUST MISiS C++
 
