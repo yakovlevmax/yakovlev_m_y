@@ -6,5 +6,7 @@ project(yakovlev_m_y)
 
 include(cmake/build_prefix.cmake)
 
-add_subdirectory(prj.labs)
-add_subdirectory(prj.samples)
+include_directories(prj.lab prj.thirdparty)
+
+add_subdirectory(prj.lab)
+add_subdirectory(prj.test)
